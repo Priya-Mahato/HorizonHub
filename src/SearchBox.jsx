@@ -66,7 +66,7 @@ export default function SearchBox({updateInfo}) {
                 <Button variant="contained" type="submit">
                     Search
                 </Button>
-                {error && <p style={{color: "red"}}>This location isn't available in our API!</p>}
+                {error && <p style={{color: "red"}}>Location not available in our API! Refresh to remove msg.</p>}
             </form>
         </div>
     );
